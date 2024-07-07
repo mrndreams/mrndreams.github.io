@@ -74,7 +74,7 @@
     }
 
     // Periodically check for player updates
-    setInterval(updatePlayer, 5000);
+    setInterval(updatePlayer, 10000);
 
     // Initial load
     onMount(() => {
