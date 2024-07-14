@@ -1,14 +1,10 @@
 <script>
 	import { onMount } from 'svelte';
     import About from './Sections/about.svelte';
-	import Photography from './Sections/photography.svelte';
-    import Development from './Sections/development.svelte';
     import Extras from './Sections/extras.svelte';
 	
 	var section_map = {
 		"about": About,
-		"photography": Photography,
-		"development": Development,
 		"extras": Extras
 	}
 	let selected_component = About
@@ -31,7 +27,7 @@
 
 <main>
 	<div id="main-box">
-		<div id="main-nav">
+		<!-- <div id="main-nav">
 			<ul id="main-nav-list">
 				<li>about me</li>
 				<li>photography</li>
@@ -41,14 +37,14 @@
 			<div id="main-nav-footer">
 				<a href="https://mrndreams.digital">mrndreams.digital</a>
 			</div>
-		</div>
+		</div> -->
 		<div id="main-content"> 
 			{#if selected_component}
 			<svelte:component this={selected_component}/> 
 			{/if}
 		</div>
 	</div>
-	<div id="website-version">Website Version 3.0.1</div>
+	<div id="website-version">Website Version 3.0.2</div>
     <div id="viewed-image"><img src="./assets/404.webp" height=800></div>
 </main>
 
@@ -68,7 +64,7 @@
 	}
 
 	#main-content{
-		padding: 5px;
+		padding: 23px;
 		opacity: 1;
 	}
 
@@ -76,7 +72,7 @@
 		min-width: 581px;
 
 		width: 50vw;
-		height: 60vh;
+		height: 91vh;
 		background-color: #482016;
   		border: var(--main-box-border);
 		position: relative;

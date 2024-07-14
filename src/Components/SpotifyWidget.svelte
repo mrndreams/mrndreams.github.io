@@ -54,7 +54,7 @@
 
             var space_width = Math.round(document.getElementById("player-far-right").offsetWidth)
 
-            const progressBar = generateProgressBar(songData.progress_ms, songData.item.duration_ms, space_width/13);
+            const progressBar = generateProgressBar(songData.progress_ms, songData.item.duration_ms, space_width/14);
             playerProgress.textContent = progressBar;
         }
     }

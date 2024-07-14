@@ -13,8 +13,6 @@
                 <h2>evelyn</h2>
                 <h3>evie</h3>
                 <h4>mrn</h4>
-                <h5>ev</h5>
-                <h6>.</h6>
             </div>
         </div>
         <div id="about-top-links">
@@ -27,9 +25,11 @@
     <div id="about-bottom">
         <h2>about me</h2>
         <p id="about-me-text">
-            im evelyn or mrn &lt;3, a neet trans girl and nightmare island resident (uk). <br> i create things sometimes, games, music, photos.. anything really. a lot of it doesnt see the light of day except photos but, maybe one day ill finish something cool 
-            <br><br>feel free to look around at whatever i put on here oh and also check out the extras section.
-            i love u, and look after yourself &lt;3
+            im evelyn or mrn &lt;3 im a rotmaxxing neet trans girl and nightmare island resident (uk) im always working on things, programming stuff, music, photos, random ass google docs.. a lot of it doesnt see the light of day except photos but, maybe one day ill finish something cool. one cool thing i have finished though is <i>this</i> website using svelte for my socials i hope you like it ^w^
+            <br><br>
+            the music i like is just loser music like green day and car seat headrest genuinely never give me the aux cable. ive also got a thing for tech like, crt's, ipods and old machines that can be repurposed into joining the IED of a homelab i have. and by "a thing for tech" i also mean i yearn to have components and abandon my flesh 
+            <br><br>
+            i love you oomf look after yourself &lt;3
         </p>
     </div>
     <div id="about-footer">
@@ -128,6 +128,7 @@
         color: white;
         margin-top: 5px;
         font-weight: bold;
+        font-size: 16px;
     }
 
     #about-footer{
