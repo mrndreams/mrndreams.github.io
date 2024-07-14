@@ -72,7 +72,7 @@
 		min-width: 581px;
 
 		width: 50vw;
-		height: 91vh;
+		height: 80vh;
 		background-color: #482016;
   		border: var(--main-box-border);
 		position: relative;

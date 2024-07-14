@@ -114,7 +114,7 @@
     #about-bottom{
         display: block;
         text-align: left;
-        max-height: 233px;
+        max-height: 450px;
         overflow: hidden auto;
     }
     #about-bottom > h2{
